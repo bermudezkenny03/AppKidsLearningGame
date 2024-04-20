@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Animales">
+
+    <ImageButton
+        android:id="@+id/ButtonMamiferos"
+        android:layout_width="197dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="84dp"
+        android:background="@null"
+        android:contentDescription="Botón mamiferos"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgmamiferos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ButtonAnfibios"
+        android:layout_width="193dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:background="@null"
+        android:contentDescription="Botón anfibios"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imganfibios"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonMamiferos" />
+
+    <ImageButton
+        android:id="@+id/ButtonAves"
+        android:layout_width="137dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="44dp"
+        android:background="@null"
+        android:contentDescription="Botón aves"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgaves"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonAnfibios" />
+
+    <ImageButton
+        android:id="@+id/ButtonReptiles"
+        android:layout_width="191dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="48dp"
+        android:background="@null"
+        android:contentDescription="Botón reptiles"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgreptiles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonAves" />
+
+
+    <ImageButton
+        android:id="@+id/ButtonInvertebrados"
+        android:layout_width="242dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="32dp"
+        android:background="@null"
+        android:contentDescription="Botón invertebrados"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imginvertebrados"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonReptiles" />
+
+    <ImageButton
+        android:id="@+id/ButtonPeces"
+        android:layout_width="149dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:contentDescription="Botón invertebrados"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgpeces"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonInvertebrados" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seleccion">
+
+    <ImageButton
+        android:id="@+id/ButtonAnimales"
+        android:layout_width="197dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="124dp"
+        android:background="@null"
+        android:contentDescription="Botón de animales"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imganimales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.539"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/ButtonNumeros"
+        android:layout_width="193dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="56dp"
+        android:background="@null"
+        android:contentDescription="Botón de números"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgnumeros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonAnimales" />
+
+    <ImageButton
+        android:id="@+id/ButtonColores"
+        android:layout_width="165dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="44dp"
+        android:background="@null"
+        android:contentDescription="Botón de colores"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgcolores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonNumeros" />
+
+    <ImageButton
+        android:id="@+id/ButtonAbecedario"
+        android:layout_width="222dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="48dp"
+        android:background="@null"
+        android:contentDescription="Botón del abecedario"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgabecedario"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonColores" />
+
+    <ImageButton
+        android:id="@+id/ButtonVocales"
+        android:layout_width="174dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@null"
+        android:contentDescription="Botón de vocales"
+        android:scaleType="fitCenter"
+        android:src="@drawable/imgvocales"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ButtonAbecedario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
